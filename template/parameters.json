@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverName": {
+            "value": "agsdbserver2"
+        },
+        "administratorLogin": {
+            "value": "kiranvk211"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "databaseUsername": {
+            "value": "kiranvk211"
+        },
+        "databasePassword": {
+            "value": null
+        },
+        "databaseName": {
+            "value": "agsdb"
+        },
+        "edition": {
+            "value": "Standard"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "maxSizeBytes": {
+            "value": "268435456000"
+        },
+        "requestedServiceObjectiveId": {
+            "value": "f1173c43-91bd-4aaa-973c-54e79e15235b"
+        },
+        "serverLocation": {
+            "value": "eastus"
+        },
+        "name": {
+            "value": "ags-test-app"
+        },
+        "hostingPlanName": {
+            "value": "ServicePlan2ec5ab23-8ddf"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "ags-test-app"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "subscriptionId": {
+            "value": "432c1b28-1800-4ba2-97b8-c7d62ea46641"
+        }
+    }
+}
